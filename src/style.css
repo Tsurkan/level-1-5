@@ -1,0 +1,67 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.first__line {
+  font-size: 60px;
+  font-weight: bold;
+}
+.second__line {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.num {
+  font-size: 40px;
+}
+.box span {
+  margin-top: 5px;
+  font-size: 30px;
+  display: block;
+}
+.plus,
+.minus {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.plus {
+  margin-right: 50px;
+}
+.minus {
+  margin-left: 50px;
+}
+.plus:hover,
+.minus:hover,
+.start:hover {
+  box-shadow: 10px 5px 5px black;
+}
+
+a.start {
+  padding: 10px 30px;
+  margin-top: 30px;
+  color: white;
+  background-color: forestgreen;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin: 0;
+}
